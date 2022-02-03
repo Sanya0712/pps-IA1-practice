@@ -26,9 +26,9 @@ int cmp(int a,int b,int c)
   return large;
 }
 
-void output(int large)
+void output(int largest)
 {
- printf("%d is the largest among them \n",large); 
+ printf("%d is the largest among them \n",largest); 
 }
 
 int main()
