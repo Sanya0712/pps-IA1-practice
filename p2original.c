@@ -4,11 +4,13 @@ int input()
   int num;
   printf("enter the numbers:\n");
   scanf("%d",&num);
-  return 0;
+  return num;
 }
 
 int cmp(int a,int b,int c)
 {
+
+  int large;
   if (a>b && a>c)
   {
     large=a;
@@ -24,12 +26,12 @@ int cmp(int a,int b,int c)
   return large;
 }
 
-void output(int largest)
+void output(int large)
 {
- printf("%d is the result among them \n",largest); 
+ printf("%d is the largest among them \n",large); 
 }
 
-int main
+int main()
 {
   int x,y,z,result;
   x=input();
