@@ -8,9 +8,9 @@ int input_n()
 }
 int sum_n(int n)
 {
-  int sum,i;
+  int sum;
   sum=0;
-  for(i=1;i<=n;i++)
+  for(int i=1;i<=n;i++)
   {
     sum=sum+i;
   }
