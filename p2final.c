@@ -1,10 +1,10 @@
 #include<stdio.h>
 int input()
 {
-  int num;
+  int n;
   printf("enter the numbers:\n");
-  scanf("%d",&num);
-  return num;
+  scanf("%d",&n);
+  return n;
 }
 
 int cmp(int a,int b,int c)
